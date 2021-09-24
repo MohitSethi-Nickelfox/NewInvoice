@@ -1,0 +1,130 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #242424;
+}
+
+.row01
+{
+  max-width: 595px;
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+.row
+{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.grey
+{
+  background-color: #F5F7FA;
+}
+
+.customer-care-gomble, .para-right, .para-left {
+  color: #708099;
+  font-family: Inter;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 12px;
+  text-align: right;
+}
+
+.para-left
+{
+  text-align: left;
+}
+
+.logo
+{
+  color: #FC68A2;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+.bill
+{
+  color: #1F2229;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.bill_address
+{
+  color: #708099;
+  font-family: Inter;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 12px;
+}
+
+.invoice {
+  color: #1F2229;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 26px;
+  text-align: right;
+}
+
+.invoice-number, .invoice-date {
+    color: #1F2229;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 12px;
+    text-align: right;
+  }
+
+  .Order-id, .Order-date  {
+    color: #1F2229;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 12px;
+    text-align: left;
+  }
+.table-heading
+{
+  color: #708099;
+  font-family: Inter;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 10px;
+}
+
+.border-bottom
+{
+ border-bottom: 1px solid #FFFFFF;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.black
+{
+  color: #242424;
+} 
+
+
+@media screen and (max-width: 500px) {
+  .row01 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
